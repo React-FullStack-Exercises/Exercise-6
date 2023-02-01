@@ -8,13 +8,13 @@ const Notification = () => {
     borderWidth: 1
   }
   return (
-    <div>
+   <>
     { 
       notification !== '' 
       ? <div style={style}>{notification}</div>
-      : <div></div>
+      : ''
     }
-    </div>
+  </>
   )
 }
 
